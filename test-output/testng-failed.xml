@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Hotwire_automation_test(failed)">
+    <classes>
+      <class name="hotwire_automation_Testcases.Hotwire_Test_Base">
+        <methods>
+          <include name="initialize"/>
+          <include name="TeardownTest"/>
+        </methods>
+      </class> <!-- hotwire_automation_Testcases.Hotwire_Test_Base -->
+      <class name="hotwire_automation_Testcases.Search_Test_Cases">
+        <methods>
+          <include name="Searchtest"/>
+        </methods>
+      </class> <!-- hotwire_automation_Testcases.Search_Test_Cases -->
+    </classes>
+  </test> <!-- Hotwire_automation_test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
